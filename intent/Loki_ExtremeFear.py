@@ -24,88 +24,85 @@ def debugInfo(inputSTR, utterance):
 
 def getResult(inputSTR, utterance, args, resultDICT):
     debugInfo(inputSTR, utterance)
+    resultDICT["ExtremeFear"]=[]
     if utterance == "[不][怕屎][就][盡量]融資":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "[他][們][最後][會]把[股票][賣倒][台股]崩盤[為]止":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "[元氣]大傷":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[在][大盤]急跌[2000][點][之後]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[大][家][不][怕屎][就][盡量]融資":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "[大盤]急跌[2000][點]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[大豆][期貨]跌至[七周][半]最[低]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[早上][根本][就是]歹戲拖棚":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[爛][股][一支]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[玉米期貨]觸及[三周][半]最[低]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[美股][全][數][走跌]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "[美股]走跌":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[芝加哥期貨交易所(CBOT)][大豆][期貨][週][五]跌至[七周][半]最[低]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[芝加哥期貨交易所(CBOT)][大豆][期貨]跌至[七周][半]最[低]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "[這]回[元氣]大傷":
-        # write your code here
+        resultDICT["ExtremeFear"].append(20)
         pass
 
     if utterance == "拖累[美股][全][數]走跌":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "歹戲拖棚":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "火葬場":
-        # write your code here
-        pass
-
-    if utterance == "瞻仰[火箭][昇空]":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "等於[是][在][不]知[不]覺[中]把[自己]推入[中][國][的]火葬場":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     if utterance == "過[陣子]離開[股市]好了":
-        # write your code here
+        resultDICT["ExtremeFear"].append(10)
         pass
 
     return resultDICT
