@@ -23,113 +23,114 @@ def debugInfo(inputSTR, utterance):
         print("[Neutral] {} ===> {}".format(inputSTR, utterance))
 
 def getResult(inputSTR, utterance, args, resultDICT):
+    resultDICT["Neutural"] = []
     debugInfo(inputSTR, utterance)
     if utterance == "[也][代表][市場][資金][在]觀望[鮑爾][的][談話內容]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[估計][指數][會][在][此][點][與][月線][間]盤整震盪":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "[先]空手[看][內資][投信][撐價]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[外資]有完沒完":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "[很多][股票]幾[十年]來[價格]始終如一":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[我][會][稍微]停看聽觀察[一][下]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[所以][這][邊][我][還是][要][提醒][大][家][有些]不確定性":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "[持續]觀察":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[持續]觀察[是][否][有][波段][漲幅]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[明天]小心":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "[現在][仍][很多][投資人][在]觀望[17000]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[盤整]平盤[附近]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[至少]幅度[不會][那][麼][大]":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "[若][不幸][回測][此][低點][需][特別][注意][是][否]守的住":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "[進入]調整[階段]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[還是]一日行情":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "[需][特別]注意":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[面板股][都][應該]觀望":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "[默默]等[股][價]表態[中]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "一日行情":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "反彈仍是[看][量][決定][一切]":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "對所[有][面板股][都][應該]觀望":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "幾[十年]來[價格]始終如一":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "提[高]警覺":
-        # write your code here
+        resultDICT["Neutural"].append("45")
         pass
 
     if utterance == "方向[就][會][比較][明確]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "觀望[氣氛][壟罩]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     if utterance == "觀望[氣氛][壟罩][下]":
-        # write your code here
+        resultDICT["Neutural"].append("50")
         pass
 
     return resultDICT

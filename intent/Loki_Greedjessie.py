@@ -23,381 +23,382 @@ def debugInfo(inputSTR, utterance):
         print("[Greedjessie] {} ===> {}".format(inputSTR, utterance))
 
 def getResult(inputSTR, utterance, args, resultDICT):
+    resultDICT["Greed"] = []
     debugInfo(inputSTR, utterance)
     if utterance == "K大於D":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[5][日][均線]向上":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[MACD][變成]紅柱體[第1根]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[三百][以][下][算][是]很便宜了":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[今天][大盤]小漲[21][點]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[今天][有]向上攻[的][情形]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[今天]成功守住[了][16983]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[今日][大盤]跳空開高[後]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[今日][早盤]洗[盤]完有機會[拉][尾盤]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[但][今天][就][看得出]支撐[明顯]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[但][至少][成交量][比][昨日][略增][也]收漲":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[但是][不要][一][次]買滿":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[內資]做多[價差][反而][成為][了]支撐[的][交易量]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[前三天]大漲[了][近][700][點]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[可]望[在][未來]幾[年內]達到[一定][規模][的][市占率]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[台積電]則[跳空]上漲收復所[有][均線]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[台股][在]本[波]回升[行情]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[台股][連續][四][個][交易日]反彈[後]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[在][持續]多頭[的][情勢][下][都][有][機會]解套":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[基本上]買超[前幾名][都是][隔日沖]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[外資][也]有可能開始增加[期貨][的][多單]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[外資][則是]淨多單[增加][1082][口]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[多空][手腳][都要]快":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[夜盤]帥啦[衝啦][帶領][亞谷][紫蝶][反彈]帶領[歐美][股市]回穩向上":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[大盤][創][這][波][低點][以來]新高":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[好][兆頭]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[如果][明天][收盤][再次][順利]守住":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[官股][銀行][也][在][上週五][大][力]護盤":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[尾盤]拉上來":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[尾盤]翻紅":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[市場]對[聯準會][政策][收][緊][的]擔憂[有所]緩解":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[很多][股票]底部出現":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[從][底部]反彈[了][800][點][的][行情]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[慢慢][佈倉]買進成長股":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[我]跟隨[大大][多年]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[所以][今天]順勢[整理]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[所以][是][個股][跌深深][的]反彈[行情]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[投信]買超[7.7億]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[投資人][可以][開始]布局":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[拉回]買[就對了]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[拼命]買[和]賣賺[價差]而已":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[敦泰]出貨動[能][可]望更加強勁":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[昨天][提醒][同學]勿追高":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[最後]收漲[21][點]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[有][拉回][我][還是][會]撿[回來]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[有]站穩[頸線]跟[上升][趨勢線]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[未來][將][持續][朝向]多頭[前進]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[現在][政策][開始][重新]翻多":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[盤][越][久]量能[越]強":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[相當於][變成][下一波]反彈[的][醞釀]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[看][了][許多][今天]大漲[的][股票]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[看好][9][月][行情]續漲":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[科技股]回升":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[科技股]領軍回升":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[突破][下降][趨勢線][並][重新]站上[月線][及][半年線][後][再次]上攻":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[第四季][就][會][有]好獲利":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[等待][月線][及][半年線]拉平緩[後]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[籌碼][少][在][中繼]反彈[行情][中][比較][有][機會]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[絕對是]布局[做][第二][波]反彈[的][機會][點]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[美聯儲][將][很][快][開始][收][緊][貨幣][政策][的]預期提振[了][美元]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[美聯儲]提振[了][美元]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[美股]20日上漲":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[自營][上週五][就]開始做多":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[行情][還會][再]往上[走]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[該][股][目前]已站上[季線]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[請勿]追[漲停]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[讓][他]穩健[慢慢]往上[走][最棒]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[讓][我]減少[很多]虧損":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "[資金]翻[了]好幾倍":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "[較][有利]多方":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[這][個][盤後]不[錯]吧":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[這][樣][多頭][格局][會][更]確立":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[這][樣]保持[下]去就對了":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[這][頂多]損失[一][點][點][報酬]而已":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[那][現在][還是]多頭[吧]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[隔日][宣布][聯準會][縮減]QE[的][可能][較]低":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "[難]得站上[五日線][了]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "且[在][2022年]出貨[量能]有機會[開始][明顯]成長":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "伴隨[鋼鐵][市]況[需]求強勁":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "只要[目前][的][股][價]低於[應有的]價值":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "因[市場]對[聯準會][政策][收][緊][的]擔憂有所緩解":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "多方[優勢]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "多頭[的]回升[才][算][正式][開始]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "對[美聯儲][將][很][快][開始][收][緊][貨幣][政策][的]預期提振了[美元]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "帶領[亞谷][紫蝶][反彈]帶領[歐美][股市]回穩向上":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "急拉[尾盤]":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "感謝[官股][銀行][和][自營][商][的]護盤":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "推動[毛利][及]獲利維持[在][高檔][水準]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "攻上[季線][很]有望":
-        # write your code here
+        resultDICT["Greed"].append("70")
         pass
 
     if utterance == "激勵[鋼鐵][類][股][多數]收漲":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "站上[5][日][均線]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "站上[季線]":
-        # write your code here
+        resultDICT["Greed"].append("60")
         pass
 
     if utterance == "總未平倉量[為]-[19929][口]":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     if utterance == "量[溫和]放大":
-        # write your code here
+        resultDICT["Greed"].append("65")
         pass
 
     return resultDICT
