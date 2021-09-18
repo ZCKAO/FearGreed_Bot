@@ -67,7 +67,7 @@ class BotClient(discord.Client):
                 if "我是預設的回應字串…你會看到我這串字，肯定是出了什麼錯！" in responseLIST:
                     responseSTR = responseLIST[0]
                 else:
-                    responseSTR = "{} 指數為 {}".format(indexSTR, sum(responseLIST))
+                    responseSTR = "判斷結果為 {} 指數為 {} ".format(indexSTR, sum(responseLIST))
                 await message.reply(responseSTR)
 
 if __name__ == "__main__":
